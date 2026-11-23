@@ -1,8 +1,53 @@
 {
- "updated": "2026-11-23 08:58",
+ "updated": "2026-11-23 17:15",
  "status": "정상",
  "criteria": "영업이익(3개월) 10억 원 이상이면서 전분기 대비 +50% 이상, 전년 동기 대비 +50% 이상, 또는 흑자전환",
  "feed": [
+  {
+   "rcept_no": "20261123000284",
+   "rcept_dt": "20261123",
+   "corp_name": "옵토닉스",
+   "stock_code": "493260",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261123000239",
+   "rcept_dt": "20261123",
+   "corp_name": "에이엘로봇",
+   "stock_code": "471800",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261123000228",
+   "rcept_dt": "20261123",
+   "corp_name": "피델릭스",
+   "stock_code": "032580",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]사업보고서 (2025.12)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261123000121",
+   "rcept_dt": "20261123",
+   "corp_name": "아티스트컴퍼니",
+   "stock_code": "321820",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261123000065",
+   "rcept_dt": "20261123",
+   "corp_name": "삼아알미늄",
+   "stock_code": "006110",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
   {
    "rcept_no": "20261120000604",
    "rcept_dt": "20261120",
@@ -3557,54 +3602,45 @@
    "corp_cls": "K",
    "report_nm": "분기보고서 (2026.09)",
    "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001687",
-   "rcept_dt": "20261116",
-   "corp_name": "유유제약",
-   "stock_code": "000220",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001685",
-   "rcept_dt": "20261116",
-   "corp_name": "성창기업지주",
-   "stock_code": "000180",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001683",
-   "rcept_dt": "20261116",
-   "corp_name": "시너지이노베이션",
-   "stock_code": "048870",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001682",
-   "rcept_dt": "20261116",
-   "corp_name": "NICE인프라",
-   "stock_code": "063570",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001680",
-   "rcept_dt": "20261116",
-   "corp_name": "한일홀딩스",
-   "stock_code": "003300",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
   }
  ],
  "reports": [
+  {
+   "rcept_no": "20261123000284",
+   "rcept_dt": "20261123",
+   "corp_name": "옵토닉스",
+   "stock_code": "493260",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [
+    "영업이익 +50%↑(YoY)"
+   ],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": 658422743,
+   "op_prev": null,
+   "op_yoy": 282666192,
+   "sales": 6625224209
+  },
+  {
+   "rcept_no": "20261123000239",
+   "rcept_dt": "20261123",
+   "corp_name": "에이엘로봇",
+   "stock_code": "471800",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": -580015215,
+   "op_prev": null,
+   "op_yoy": -380718082,
+   "sales": 4178766200
+  },
   {
    "rcept_no": "20261120000490",
    "rcept_dt": "20261120",
