@@ -1,8 +1,44 @@
 {
- "updated": "2026-11-25 09:05",
+ "updated": "2026-11-25 17:17",
  "status": "정상",
  "criteria": "영업이익(3개월) 10억 원 이상이면서 전분기 대비 +50% 이상, 전년 동기 대비 +50% 이상, 또는 흑자전환",
  "feed": [
+  {
+   "rcept_no": "20261125800333",
+   "rcept_dt": "20261125",
+   "corp_name": "지역난방공사",
+   "stock_code": "071320",
+   "corp_cls": "Y",
+   "report_nm": "영업(잠정)실적(공정공시)",
+   "kind": "잠정실적"
+  },
+  {
+   "rcept_no": "20261125000675",
+   "rcept_dt": "20261125",
+   "corp_name": "메드팩토",
+   "stock_code": "235980",
+   "corp_cls": "K",
+   "report_nm": "[첨부정정]사업보고서 (2025.12)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261125000493",
+   "rcept_dt": "20261125",
+   "corp_name": "이에스티",
+   "stock_code": "495910",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261125000219",
+   "rcept_dt": "20261125",
+   "corp_name": "프레스티지바이오파마",
+   "stock_code": "950210",
+   "corp_cls": "Y",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
   {
    "rcept_no": "20261124800670",
    "rcept_dt": "20261124",
@@ -3566,45 +3602,43 @@
    "corp_cls": "K",
    "report_nm": "분기보고서 (2026.09)",
    "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001700",
-   "rcept_dt": "20261116",
-   "corp_name": "파워넷",
-   "stock_code": "037030",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001698",
-   "rcept_dt": "20261116",
-   "corp_name": "한국철강",
-   "stock_code": "104700",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001697",
-   "rcept_dt": "20261116",
-   "corp_name": "인선이엔티",
-   "stock_code": "060150",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001696",
-   "rcept_dt": "20261116",
-   "corp_name": "엘앤에프",
-   "stock_code": "066970",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
   }
  ],
  "reports": [
+  {
+   "rcept_no": "20261125000493",
+   "rcept_dt": "20261125",
+   "corp_name": "이에스티",
+   "stock_code": "495910",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": -1851489299,
+   "op_prev": null,
+   "op_yoy": -2443882690,
+   "sales": 6761242630
+  },
+  {
+   "rcept_no": "20261125000219",
+   "rcept_dt": "20261125",
+   "corp_name": "프레스티지바이오파마",
+   "stock_code": "950210",
+   "corp_cls": "Y",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": -18397821,
+   "op_prev": null,
+   "op_yoy": -10946913,
+   "sales": 355507
+  },
   {
    "rcept_no": "20261123000284",
    "rcept_dt": "20261123",
