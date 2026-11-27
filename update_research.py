@@ -60,7 +60,7 @@ def parse(page_html):
             "title": title,
             "name": title.split("(")[0].strip() if cm else "",
             "code": cm.group(1) if cm else "",
-            "target": int(tp) if tp else None,
+            "target": int(tp) if tp and int(tp) > 0 else None,
             "opinion": strip(tds[3]),
             "author": strip(tds[4]),
             "broker": strip(tds[5]),
@@ -119,7 +119,9 @@ def main():
     for x in allx:
         key = (x["code"], x["broker"])
         prev = last.get(key)
-        x.pop("prev", None), x.pop("chg", None), x.pop("move", None)
+        x.pop("prev", None), x.pop("chg", None), x.pop("move", None), x.pop("prev_date", None)
+        if not x.get("target"):  # 목표주가 칸이 비었거나 0 이면 비교하지 않는다
+            x["target"] = None
         if x["target"] is None:
             x["move"] = "없음"
         elif prev is None:
