@@ -1,8 +1,26 @@
 {
- "updated": "2026-11-27 17:14",
+ "updated": "2026-11-27 18:56",
  "status": "정상",
  "criteria": "영업이익(3개월) 10억 원 이상이면서 전분기 대비 +50% 이상, 전년 동기 대비 +50% 이상, 또는 흑자전환",
  "feed": [
+  {
+   "rcept_no": "20261127002002",
+   "rcept_dt": "20261127",
+   "corp_name": "인벤티지랩",
+   "stock_code": "389470",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261127001934",
+   "rcept_dt": "20261127",
+   "corp_name": "크레오에스지",
+   "stock_code": "040350",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
   {
    "rcept_no": "20261127001927",
    "rcept_dt": "20261127",
@@ -3584,27 +3602,26 @@
    "corp_cls": "Y",
    "report_nm": "분기보고서 (2026.09)",
    "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001722",
-   "rcept_dt": "20261116",
-   "corp_name": "리튬포어스",
-   "stock_code": "073570",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001720",
-   "rcept_dt": "20261116",
-   "corp_name": "KG스틸",
-   "stock_code": "016380",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
   }
  ],
  "reports": [
+  {
+   "rcept_no": "20261127002002",
+   "rcept_dt": "20261127",
+   "corp_name": "인벤티지랩",
+   "stock_code": "389470",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": -10252275497,
+   "op_prev": -10284860015,
+   "op_yoy": -7433898012,
+   "sales": 436923112
+  },
   {
    "rcept_no": "20261127001893",
    "rcept_dt": "20261127",
