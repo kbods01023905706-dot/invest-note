@@ -10,6 +10,7 @@ on:
   push:
     paths:
       - "**.pdf"
+      - "notes/**"
 
 permissions:
   contents: write
@@ -35,8 +36,13 @@ jobs:
           DART_API_KEY: ${{ secrets.DART_API_KEY }}
         run: python update_dart.py
         continue-on-error: true
-      - name: 브리핑 목록
-        run: python build_briefs.py
+      - name: 증권사 리포트·목표주가
+        run: python update_research.py
+        continue-on-error: true
+      - name: 브리핑·AI 노트 목록
+        run: |
+          python build_briefs.py
+          python build_notes.py
       - name: 변경 내용 저장
         run: |
           git config user.name "invest-note-bot"
