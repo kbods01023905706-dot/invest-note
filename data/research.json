@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 15:34",
+ "updated": "2026-11-27 15:38",
  "latest": "2026-11-27",
  "summary": {
   "total": 16,
@@ -370,7 +370,7 @@
    "title": "CJ ENM(035760) 시그널이 왔다",
    "name": "CJ ENM",
    "code": "035760",
-   "target": 0,
+   "target": null,
    "opinion": "Buy",
    "author": "김회재",
    "broker": "대신증권",
@@ -378,10 +378,7 @@
     "시그널이 왔다"
    ],
    "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654564",
-   "prev": 60000,
-   "prev_date": "2026-11-06",
-   "chg": -100.0,
-   "move": "하향"
+   "move": "없음"
   },
   {
    "idx": 654563,
@@ -574,7 +571,7 @@
    "title": "와이바이오로직스(338840) 전임상에서 딜 테이블로, 승부는 2027년",
    "name": "와이바이오로직스",
    "code": "338840",
-   "target": 0,
+   "target": null,
    "opinion": "투자의견없음",
    "author": "김승준,이금민",
    "broker": "한국IR협의회",
@@ -582,7 +579,7 @@
     "전임상에서 딜 테이블로, 승부는 2027년"
    ],
    "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654527",
-   "move": "신규"
+   "move": "없음"
   },
   {
    "idx": 654517,
@@ -784,7 +781,7 @@
    "title": "CJ ENM(035760) 글로벌 IP홀더로의 사업모델 진화",
    "name": "CJ ENM",
    "code": "035760",
-   "target": 0,
+   "target": null,
    "opinion": "투자의견없음",
    "author": "김태현,김혜인",
    "broker": "한국IR협의회",
@@ -792,7 +789,7 @@
     "글로벌 IP홀더로의 사업모델 진화"
    ],
    "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654494",
-   "move": "신규"
+   "move": "없음"
   },
   {
    "idx": 654487,
@@ -1067,7 +1064,7 @@
    "title": "코스맥스엔비티(222040) 디톡스 끝, 벌크업 시작",
    "name": "코스맥스엔비티",
    "code": "222040",
-   "target": 0,
+   "target": null,
    "opinion": "투자의견없음",
    "author": "서진경,이금민",
    "broker": "한국IR협의회",
@@ -1075,7 +1072,7 @@
     "디톡스 끝, 벌크업 시작"
    ],
    "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654432",
-   "move": "신규"
+   "move": "없음"
   },
   {
    "idx": 654427,
