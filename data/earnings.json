@@ -1,8 +1,71 @@
 {
- "updated": "2026-11-27 09:13",
+ "updated": "2026-11-27 15:33",
  "status": "정상",
  "criteria": "영업이익(3개월) 10억 원 이상이면서 전분기 대비 +50% 이상, 전년 동기 대비 +50% 이상, 또는 흑자전환",
  "feed": [
+  {
+   "rcept_no": "20261127001369",
+   "rcept_dt": "20261127",
+   "corp_name": "와이엠텍",
+   "stock_code": "273640",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261127001270",
+   "rcept_dt": "20261127",
+   "corp_name": "신한알파리츠",
+   "stock_code": "293940",
+   "corp_cls": "Y",
+   "report_nm": "사업보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261127001216",
+   "rcept_dt": "20261127",
+   "corp_name": "엔젯",
+   "stock_code": "419080",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261127000773",
+   "rcept_dt": "20261127",
+   "corp_name": "우양피앤엘",
+   "stock_code": "002420",
+   "corp_cls": "Y",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261127000479",
+   "rcept_dt": "20261127",
+   "corp_name": "파이온엑스",
+   "stock_code": "900100",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261127000373",
+   "rcept_dt": "20261127",
+   "corp_name": "아이티켐",
+   "stock_code": "309710",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
+  {
+   "rcept_no": "20261127000371",
+   "rcept_dt": "20261127",
+   "corp_name": "서암기계공업",
+   "stock_code": "100660",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "kind": "정기보고서"
+  },
   {
    "rcept_no": "20261126000822",
    "rcept_dt": "20261126",
@@ -3539,72 +3602,120 @@
    "corp_cls": "K",
    "report_nm": "분기보고서 (2026.09)",
    "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001710",
-   "rcept_dt": "20261116",
-   "corp_name": "다우기술",
-   "stock_code": "023590",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001709",
-   "rcept_dt": "20261116",
-   "corp_name": "블루산업개발",
-   "stock_code": "006740",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001708",
-   "rcept_dt": "20261116",
-   "corp_name": "모니터랩",
-   "stock_code": "434480",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001707",
-   "rcept_dt": "20261116",
-   "corp_name": "태경비케이",
-   "stock_code": "014580",
-   "corp_cls": "Y",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001706",
-   "rcept_dt": "20261116",
-   "corp_name": "에스티큐브",
-   "stock_code": "052020",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001704",
-   "rcept_dt": "20261116",
-   "corp_name": "비스토스",
-   "stock_code": "419540",
-   "corp_cls": "K",
-   "report_nm": "분기보고서 (2026.09)",
-   "kind": "정기보고서"
-  },
-  {
-   "rcept_no": "20261116001703",
-   "rcept_dt": "20261116",
-   "corp_name": "아이로보틱스",
-   "stock_code": "066430",
-   "corp_cls": "K",
-   "report_nm": "[기재정정]분기보고서 (2026.09)",
-   "kind": "정기보고서"
   }
  ],
  "reports": [
+  {
+   "rcept_no": "20261127001369",
+   "rcept_dt": "20261127",
+   "corp_name": "와이엠텍",
+   "stock_code": "273640",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [
+    "영업이익 +50%↑(YoY)"
+   ],
+   "surge": true,
+   "file": "reports/273640_20261127001369.html",
+   "funding": 1,
+   "op": 1463345040,
+   "op_prev": 1844152958,
+   "op_yoy": 712443681,
+   "sales": 17456392842
+  },
+  {
+   "rcept_no": "20261127001216",
+   "rcept_dt": "20261127",
+   "corp_name": "엔젯",
+   "stock_code": "419080",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [
+    "적자전환(QoQ)"
+   ],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": -1456432319,
+   "op_prev": 106851948,
+   "op_yoy": -1928072404,
+   "sales": 3010083287
+  },
+  {
+   "rcept_no": "20261127000773",
+   "rcept_dt": "20261127",
+   "corp_name": "우양피앤엘",
+   "stock_code": "002420",
+   "corp_cls": "Y",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [
+    "흑자전환(QoQ)",
+    "영업이익 +50%↑(YoY)"
+   ],
+   "surge": true,
+   "file": "reports/002420_20261127000773.html",
+   "funding": 0,
+   "op": 3547664976,
+   "op_prev": -167045907,
+   "op_yoy": 188493520,
+   "sales": 34203589823
+  },
+  {
+   "rcept_no": "20261127000479",
+   "rcept_dt": "20261127",
+   "corp_name": "파이온엑스",
+   "stock_code": "900100",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": -1102377,
+   "op_prev": -833093,
+   "op_yoy": -1396926,
+   "sales": 1356211
+  },
+  {
+   "rcept_no": "20261127000373",
+   "rcept_dt": "20261127",
+   "corp_name": "아이티켐",
+   "stock_code": "309710",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": -3158480157,
+   "op_prev": -2772663284,
+   "op_yoy": -570901044,
+   "sales": 7795009894
+  },
+  {
+   "rcept_no": "20261127000371",
+   "rcept_dt": "20261127",
+   "corp_name": "서암기계공업",
+   "stock_code": "100660",
+   "corp_cls": "K",
+   "report_nm": "분기보고서 (2026.09)",
+   "period": "2026년 3분기",
+   "flags": [
+    "영업이익 +50%↑(YoY)"
+   ],
+   "surge": false,
+   "file": null,
+   "funding": null,
+   "op": 361702503,
+   "op_prev": 963309866,
+   "op_yoy": 152503514,
+   "sales": 14533496042
+  },
   {
    "rcept_no": "20261125000493",
    "rcept_dt": "20261125",

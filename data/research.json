@@ -1,0 +1,1356 @@
+{
+ "updated": "2026-11-27 15:34",
+ "latest": "2026-11-27",
+ "summary": {
+  "total": 16,
+  "up": 1,
+  "down": 2
+ },
+ "items": [
+  {
+   "idx": 654619,
+   "date": "2026-11-27",
+   "title": "현대모비스(012330) 업종 내에서 가장 좋은 이익 모멘텀",
+   "name": "현대모비스",
+   "code": "012330",
+   "target": 580000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "업종 내에서 가장 좋은 이익 모멘텀"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654619",
+   "prev": 580000,
+   "prev_date": "2026-11-02",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654618,
+   "date": "2026-11-27",
+   "title": "두산로보틱스(454910) 수주를 통한 증명이 필요할 27년",
+   "name": "두산로보틱스",
+   "code": "454910",
+   "target": 70000,
+   "opinion": "Buy",
+   "author": "이상수",
+   "broker": "iM증권",
+   "points": [
+    "수주를 통한 증명이 필요할 27년"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654618",
+   "move": "신규"
+  },
+  {
+   "idx": 654617,
+   "date": "2026-11-27",
+   "title": "현대차(005380) 내수가 반등하고 HMGMA 가동률도 올라와준다면",
+   "name": "현대차",
+   "code": "005380",
+   "target": 600000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "내수가 반등하고 HMGMA 가동률도 올라와준다면"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654617",
+   "prev": 600000,
+   "prev_date": "2026-10-30",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654616,
+   "date": "2026-11-27",
+   "title": "HD현대중공업(329180) 마지막까지 가져갈 조선사",
+   "name": "HD현대중공업",
+   "code": "329180",
+   "target": 460000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "마지막까지 가져갈 조선사"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654616",
+   "prev": 530000,
+   "prev_date": "2026-10-29",
+   "chg": -13.2,
+   "move": "하향"
+  },
+  {
+   "idx": 654615,
+   "date": "2026-11-27",
+   "title": "한화오션(042660) 높은산 깊은 골",
+   "name": "한화오션",
+   "code": "042660",
+   "target": 70000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "높은산 깊은 골"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654615",
+   "move": "신규"
+  },
+  {
+   "idx": 654614,
+   "date": "2026-11-27",
+   "title": "삼성중공업(010140) 변동성이 커질 수록 빛나는 조선사",
+   "name": "삼성중공업",
+   "code": "010140",
+   "target": 24000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "변동성이 커질 수록 빛나는 조선사"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654614",
+   "prev": 28000,
+   "prev_date": "2026-10-30",
+   "chg": -14.3,
+   "move": "하향"
+  },
+  {
+   "idx": 654604,
+   "date": "2026-11-27",
+   "title": "보령(003850) 수출 확대와 국내 영업망 확장에 주목",
+   "name": "보령",
+   "code": "003850",
+   "target": 14000,
+   "opinion": "매수",
+   "author": "이선경",
+   "broker": "SK증권",
+   "points": [
+    "수출 확대와 국내 영업망 확장에 주목"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654604",
+   "move": "신규"
+  },
+  {
+   "idx": 654603,
+   "date": "2026-11-27",
+   "title": "동아제약(000640) 본업 성장에 지배구조 개편 효과까지",
+   "name": "동아제약",
+   "code": "000640",
+   "target": 150000,
+   "opinion": "매수",
+   "author": "이선경",
+   "broker": "SK증권",
+   "points": [
+    "본업 성장에 지배구조 개편 효과까지"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654603",
+   "move": "신규"
+  },
+  {
+   "idx": 654602,
+   "date": "2026-11-27",
+   "title": "종근당(185750) 실적 공백기, R&D 모멘텀에 주목",
+   "name": "종근당",
+   "code": "185750",
+   "target": 73000,
+   "opinion": "매수",
+   "author": "이선경",
+   "broker": "SK증권",
+   "points": [
+    "실적 공백기, R&D 모멘텀에 주목"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654602",
+   "move": "신규"
+  },
+  {
+   "idx": 654601,
+   "date": "2026-11-27",
+   "title": "한미약품(128940) 기술이전으로 증명한 R&D 경쟁력",
+   "name": "한미약품",
+   "code": "128940",
+   "target": 630000,
+   "opinion": "매수",
+   "author": "이선경",
+   "broker": "SK증권",
+   "points": [
+    "기술이전으로 증명한 R&D 경쟁력"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654601",
+   "move": "신규"
+  },
+  {
+   "idx": 654600,
+   "date": "2026-11-27",
+   "title": "대원제약(003220) 4분기 회복, R&D 모멘텀 주목",
+   "name": "대원제약",
+   "code": "003220",
+   "target": 11000,
+   "opinion": "매수",
+   "author": "이선경",
+   "broker": "SK증권",
+   "points": [
+    "4분기 회복, R&D 모멘텀 주목"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654600",
+   "move": "신규"
+  },
+  {
+   "idx": 654599,
+   "date": "2026-11-27",
+   "title": "영원무역(111770) 좋지 않은 여건, 그럼에도 실적 방어력은 우수",
+   "name": "영원무역",
+   "code": "111770",
+   "target": 90000,
+   "opinion": "매수",
+   "author": "형권훈",
+   "broker": "SK증권",
+   "points": [
+    "좋지 않은 여건, 그럼에도 실적 방어력은 우수"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654599",
+   "move": "신규"
+  },
+  {
+   "idx": 654598,
+   "date": "2026-11-27",
+   "title": "LG씨엔에스(064400) 본업의 안정성 + AI의 확장성",
+   "name": "LG씨엔에스",
+   "code": "064400",
+   "target": 91000,
+   "opinion": "매수",
+   "author": "남효지",
+   "broker": "SK증권",
+   "points": [
+    "본업의 안정성 + AI의 확장성"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654598",
+   "move": "신규"
+  },
+  {
+   "idx": 654597,
+   "date": "2026-11-27",
+   "title": "티씨케이(064760) 쌓이는 수주, 비어가는 재고",
+   "name": "티씨케이",
+   "code": "064760",
+   "target": 310000,
+   "opinion": "Buy",
+   "author": "백길현, 임석민",
+   "broker": "유안타증권",
+   "points": [
+    "쌓이는 수주, 비어가는 재고"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654597",
+   "move": "신규"
+  },
+  {
+   "idx": 654590,
+   "date": "2026-11-27",
+   "title": "에이피알(278470) 브랜드501 인수, 적기에 더해진 성장동력",
+   "name": "에이피알",
+   "code": "278470",
+   "target": 480000,
+   "opinion": "Buy",
+   "author": "박신애, 김건우",
+   "broker": "메리츠증권",
+   "points": [
+    "브랜드501 인수, 적기에 더해진 성장동력"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654590",
+   "prev": 450000,
+   "prev_date": "2026-11-02",
+   "chg": 6.7,
+   "move": "상향"
+  },
+  {
+   "idx": 654587,
+   "date": "2026-11-27",
+   "title": "해성디에스(195870) CEO IR Day 후기: 걱정말아요 기판",
+   "name": "해성디에스",
+   "code": "195870",
+   "target": 70000,
+   "opinion": "Buy",
+   "author": "양승수",
+   "broker": "메리츠증권",
+   "points": [
+    "CEO IR Day 후기: 걱정말아요 기판"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654587",
+   "prev": 70000,
+   "prev_date": "2026-10-30",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654581,
+   "date": "2026-11-26",
+   "title": "원익QnC(074600) 부족한 CAPA, PER 6배",
+   "name": "원익QnC",
+   "code": "074600",
+   "target": 40000,
+   "opinion": "Buy",
+   "author": "백길현, 임석민",
+   "broker": "유안타증권",
+   "points": [
+    "부족한 CAPA, PER 6배"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654581",
+   "move": "신규"
+  },
+  {
+   "idx": 654580,
+   "date": "2026-11-26",
+   "title": "디어유(376300) 하방은 닫히고, 옵션은 열렸다",
+   "name": "디어유",
+   "code": "376300",
+   "target": 30000,
+   "opinion": "Buy",
+   "author": "이환욱",
+   "broker": "유안타증권",
+   "points": [
+    "하방은 닫히고, 옵션은 열렸다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654580",
+   "move": "신규"
+  },
+  {
+   "idx": 654579,
+   "date": "2026-11-26",
+   "title": "한화솔루션(009830) 2027년 실적 소폭 개선 vs 현금흐름 부족",
+   "name": "한화솔루션",
+   "code": "009830",
+   "target": 21000,
+   "opinion": "Hold",
+   "author": "황규원, 서석준",
+   "broker": "유안타증권",
+   "points": [
+    "2027년 실적 소폭 개선 vs 현금흐름 부족"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654579",
+   "move": "신규"
+  },
+  {
+   "idx": 654578,
+   "date": "2026-11-26",
+   "title": "SKC(011790) 2027년 영업 흑전 vs 2가지 숙제!",
+   "name": "SKC",
+   "code": "011790",
+   "target": 71000,
+   "opinion": "Hold",
+   "author": "황규원, 서석준",
+   "broker": "유안타증권",
+   "points": [
+    "2027년 영업 흑전 vs 2가지 숙제!"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654578",
+   "move": "신규"
+  },
+  {
+   "idx": 654565,
+   "date": "2026-11-26",
+   "title": "스튜디오드래곤(253450) 이제부터 진검승부",
+   "name": "스튜디오드래곤",
+   "code": "253450",
+   "target": 45000,
+   "opinion": "Buy",
+   "author": "김회재",
+   "broker": "대신증권",
+   "points": [
+    "이제부터 진검승부"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654565",
+   "prev": 35000,
+   "prev_date": "2026-11-06",
+   "chg": 28.6,
+   "move": "상향"
+  },
+  {
+   "idx": 654564,
+   "date": "2026-11-26",
+   "title": "CJ ENM(035760) 시그널이 왔다",
+   "name": "CJ ENM",
+   "code": "035760",
+   "target": 0,
+   "opinion": "Buy",
+   "author": "김회재",
+   "broker": "대신증권",
+   "points": [
+    "시그널이 왔다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654564",
+   "prev": 60000,
+   "prev_date": "2026-11-06",
+   "chg": -100.0,
+   "move": "하향"
+  },
+  {
+   "idx": 654563,
+   "date": "2026-11-26",
+   "title": "CJ(001040) 성장의 청구서, 인바운드 수요가 하단을 지지",
+   "name": "CJ",
+   "code": "001040",
+   "target": 132000,
+   "opinion": "Buy",
+   "author": "이경연,이채리",
+   "broker": "대신증권",
+   "points": [
+    "성장의 청구서, 인바운드 수요가 하단을 지지"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654563",
+   "move": "신규"
+  },
+  {
+   "idx": 654545,
+   "date": "2026-11-25",
+   "title": "현대모비스(012330) A/S 안정성에 모듈 개선을 더하다",
+   "name": "현대모비스",
+   "code": "012330",
+   "target": 430000,
+   "opinion": "매수",
+   "author": "권순우",
+   "broker": "SK증권",
+   "points": [
+    "A/S 안정성에 모듈 개선을 더하다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654545",
+   "move": "신규"
+  },
+  {
+   "idx": 654544,
+   "date": "2026-11-25",
+   "title": "기아(000270) 라인업 확대의 성과와 주주환원에 주목",
+   "name": "기아",
+   "code": "000270",
+   "target": 120000,
+   "opinion": "매수",
+   "author": "권순우",
+   "broker": "SK증권",
+   "points": [
+    "라인업 확대의 성과와 주주환원에 주목"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654544",
+   "move": "신규"
+  },
+  {
+   "idx": 654543,
+   "date": "2026-11-25",
+   "title": "현대차(005380) 공급 회복에 신차 사이클이 더해진다",
+   "name": "현대차",
+   "code": "005380",
+   "target": 370000,
+   "opinion": "매수",
+   "author": "권순우",
+   "broker": "SK증권",
+   "points": [
+    "공급 회복에 신차 사이클이 더해진다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654543",
+   "move": "신규"
+  },
+  {
+   "idx": 654542,
+   "date": "2026-11-25",
+   "title": "호전실업(111110) 팬데믹 이후 가장 비어 있는 의류 창고",
+   "name": "호전실업",
+   "code": "111110",
+   "target": 9500,
+   "opinion": "매수",
+   "author": "나승두",
+   "broker": "SK증권",
+   "points": [
+    "팬데믹 이후 가장 비어 있는 의류 창고"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654542",
+   "move": "신규"
+  },
+  {
+   "idx": 654537,
+   "date": "2026-11-25",
+   "title": "하이브(352820) 저연차의 서구권 수익화가 이익 지속성의 핵심",
+   "name": "하이브",
+   "code": "352820",
+   "target": 290000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "저연차의 서구권 수익화가 이익 지속성의 핵심"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654537",
+   "prev": 290000,
+   "prev_date": "2026-11-04",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654536,
+   "date": "2026-11-25",
+   "title": "에스엠(041510) 2027년 저연차 투어 확대와 MD 성장으로 높은 이익 회복 가시성",
+   "name": "에스엠",
+   "code": "041510",
+   "target": 130000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "2027년 저연차 투어 확대와 MD 성장으로 높은 이익 회복 가시성"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654536",
+   "prev": 110000,
+   "prev_date": "2026-11-05",
+   "chg": 18.2,
+   "move": "상향"
+  },
+  {
+   "idx": 654535,
+   "date": "2026-11-25",
+   "title": "리가켐바이오(141080) 터프해지는 환경 속 돋보일 경쟁력",
+   "name": "리가켐바이오",
+   "code": "141080",
+   "target": 180000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "터프해지는 환경 속 돋보일 경쟁력"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654535",
+   "move": "신규"
+  },
+  {
+   "idx": 654534,
+   "date": "2026-11-25",
+   "title": "SK바이오팜(326030) 성장 가속화, 판매 제품 다변화의 투 트랙 성장",
+   "name": "SK바이오팜",
+   "code": "326030",
+   "target": 150000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "성장 가속화, 판매 제품 다변화의 투 트랙 성장"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654534",
+   "prev": 130000,
+   "prev_date": "2026-09-15",
+   "chg": 15.4,
+   "move": "상향"
+  },
+  {
+   "idx": 654533,
+   "date": "2026-11-25",
+   "title": "녹십자(006280) 무시할 수 없는 알리글로의 잠재력",
+   "name": "녹십자",
+   "code": "006280",
+   "target": 210000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "무시할 수 없는 알리글로의 잠재력"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654533",
+   "move": "신규"
+  },
+  {
+   "idx": 654532,
+   "date": "2026-11-25",
+   "title": "HK이노엔(195940) 시점이 임박한 글로벌 이벤트 주목",
+   "name": "HK이노엔",
+   "code": "195940",
+   "target": 70000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "시점이 임박한 글로벌 이벤트 주목"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654532",
+   "move": "신규"
+  },
+  {
+   "idx": 654527,
+   "date": "2026-11-25",
+   "title": "와이바이오로직스(338840) 전임상에서 딜 테이블로, 승부는 2027년",
+   "name": "와이바이오로직스",
+   "code": "338840",
+   "target": 0,
+   "opinion": "투자의견없음",
+   "author": "김승준,이금민",
+   "broker": "한국IR협의회",
+   "points": [
+    "전임상에서 딜 테이블로, 승부는 2027년"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654527",
+   "move": "신규"
+  },
+  {
+   "idx": 654517,
+   "date": "2026-11-25",
+   "title": "영원무역(111770) 3Q26 Review: 환율이 너무해",
+   "name": "영원무역",
+   "code": "111770",
+   "target": 100000,
+   "opinion": "Buy",
+   "author": "이해니",
+   "broker": "유진투자증권",
+   "points": [
+    "3Q26 Review: 환율이 너무해"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654517",
+   "move": "신규"
+  },
+  {
+   "idx": 654513,
+   "date": "2026-11-24",
+   "title": "코미코(183300) 투자 부담의 정점 통과, 증설 효과 가시화 국면",
+   "name": "코미코",
+   "code": "183300",
+   "target": 23000,
+   "opinion": "Buy",
+   "author": "백길현, 임석민",
+   "broker": "유안타증권",
+   "points": [
+    "투자 부담의 정점 통과, 증설 효과 가시화 국면"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654513",
+   "move": "신규"
+  },
+  {
+   "idx": 654509,
+   "date": "2026-11-24",
+   "title": "KG모빌리티플랫폼(381970) 달라지는 중고차 시장, 준비된 플랫폼",
+   "name": "KG모빌리티플랫폼",
+   "code": "381970",
+   "target": 10000,
+   "opinion": "매수",
+   "author": "나승두",
+   "broker": "SK증권",
+   "points": [
+    "달라지는 중고차 시장, 준비된 플랫폼"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654509",
+   "move": "신규"
+  },
+  {
+   "idx": 654508,
+   "date": "2026-11-24",
+   "title": "하나투어(039130) 내년에는 연휴가 더 많습니다",
+   "name": "하나투어",
+   "code": "039130",
+   "target": 54000,
+   "opinion": "매수",
+   "author": "나승두",
+   "broker": "SK증권",
+   "points": [
+    "내년에는 연휴가 더 많습니다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654508",
+   "move": "신규"
+  },
+  {
+   "idx": 654504,
+   "date": "2026-11-24",
+   "title": "아모텍(052710) AI 숫자는 탄탄 그 이상",
+   "name": "아모텍",
+   "code": "052710",
+   "target": 25000,
+   "opinion": "매수",
+   "author": "김운호",
+   "broker": "IBK투자증권",
+   "points": [
+    "AI 숫자는 탄탄 그 이상"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654504",
+   "prev": 30000,
+   "prev_date": "2026-09-11",
+   "chg": -16.7,
+   "move": "하향"
+  },
+  {
+   "idx": 654503,
+   "date": "2026-11-24",
+   "title": "KT(030200) 27년, 본업 회복 및 KT Cloud 성장 기대",
+   "name": "KT",
+   "code": "030200",
+   "target": 70000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "27년, 본업 회복 및 KT Cloud 성장 기대"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654503",
+   "move": "신규"
+  },
+  {
+   "idx": 654502,
+   "date": "2026-11-24",
+   "title": "LG유플러스(032640) 장기 테넌트가 확보된 파주 AIDC 중심 성장 기대",
+   "name": "LG유플러스",
+   "code": "032640",
+   "target": 19500,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "장기 테넌트가 확보된 파주 AIDC 중심 성장 기대"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654502",
+   "prev": 19500,
+   "prev_date": "2026-11-05",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654501,
+   "date": "2026-11-24",
+   "title": "SK텔레콤(017670) AIDC 테넌트 가시화가 본격화될 2027년",
+   "name": "SK텔레콤",
+   "code": "017670",
+   "target": 112000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "AIDC 테넌트 가시화가 본격화될 2027년"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654501",
+   "prev": 112000,
+   "prev_date": "2026-11-05",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654500,
+   "date": "2026-11-24",
+   "title": "OCI홀딩스(010060) Tesla, 폴리실리콘 투자 검토. 현실화돼도 규모가 작아 투자포인트 훼손은 없어",
+   "name": "OCI홀딩스",
+   "code": "010060",
+   "target": 300000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "Tesla, 폴리실리콘 투자 검토. 현실화돼도 규모가 작아 투자포인트 훼손은 없어"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654500",
+   "prev": 300000,
+   "prev_date": "2026-11-05",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654499,
+   "date": "2026-11-24",
+   "title": "SK이노베이션(096770) 정유 외에 엔무브, E&S, On 등에서도 전쟁 이전 대비 높아진 이익 체력",
+   "name": "SK이노베이션",
+   "code": "096770",
+   "target": 190000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "정유 외에 엔무브, E&S, On 등에서도 전쟁 이전 대비 높아진 이익 체력"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654499",
+   "prev": 250000,
+   "prev_date": "2026-10-30",
+   "chg": -24.0,
+   "move": "하향"
+  },
+  {
+   "idx": 654498,
+   "date": "2026-11-24",
+   "title": "HS효성첨단소재(298050) BTM 발전의 숨겨진 수혜, 탄소섬유",
+   "name": "HS효성첨단소재",
+   "code": "298050",
+   "target": 200000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "BTM 발전의 숨겨진 수혜, 탄소섬유"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654498",
+   "prev": 200000,
+   "prev_date": "2026-11-02",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654494,
+   "date": "2026-11-24",
+   "title": "CJ ENM(035760) 글로벌 IP홀더로의 사업모델 진화",
+   "name": "CJ ENM",
+   "code": "035760",
+   "target": 0,
+   "opinion": "투자의견없음",
+   "author": "김태현,김혜인",
+   "broker": "한국IR협의회",
+   "points": [
+    "글로벌 IP홀더로의 사업모델 진화"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654494",
+   "move": "신규"
+  },
+  {
+   "idx": 654487,
+   "date": "2026-11-24",
+   "title": "한전KPS(051600) 점진적인 원전 정비 매출 회복 구간 진입",
+   "name": "한전KPS",
+   "code": "051600",
+   "target": 49000,
+   "opinion": "Buy",
+   "author": "허민호",
+   "broker": "대신증권",
+   "points": [
+    "점진적인 원전 정비 매출 회복 구간 진입"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654487",
+   "prev": 57000,
+   "prev_date": "2026-10-21",
+   "chg": -14.0,
+   "move": "하향"
+  },
+  {
+   "idx": 654486,
+   "date": "2026-11-24",
+   "title": "삼성E&A(028050) 불확실성의 시대, 가장 확실한 성장 스토리",
+   "name": "삼성E&A",
+   "code": "028050",
+   "target": 84000,
+   "opinion": "Buy",
+   "author": "이혜진",
+   "broker": "대신증권",
+   "points": [
+    "불확실성의 시대, 가장 확실한 성장 스토리"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654486",
+   "prev": 75000,
+   "prev_date": "2026-10-23",
+   "chg": 12.0,
+   "move": "상향"
+  },
+  {
+   "idx": 654476,
+   "date": "2026-11-23",
+   "title": "팬오션(028670) 벌크의 안정적인 이익과 탱커 선대 확대",
+   "name": "팬오션",
+   "code": "028670",
+   "target": 8500,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "벌크의 안정적인 이익과 탱커 선대 확대"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654476",
+   "prev": 8500,
+   "prev_date": "2026-11-03",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654475,
+   "date": "2026-11-23",
+   "title": "CJ대한통운(000120) 실적 회복 예상되나, 단가 회복 시점은 여전히 불확실",
+   "name": "CJ대한통운",
+   "code": "000120",
+   "target": 100000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "실적 회복 예상되나, 단가 회복 시점은 여전히 불확실"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654475",
+   "move": "신규"
+  },
+  {
+   "idx": 654474,
+   "date": "2026-11-23",
+   "title": "대한항공(003490) 유가 부담 완화와 합병 시너지 본격화",
+   "name": "대한항공",
+   "code": "003490",
+   "target": 40000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "유가 부담 완화와 합병 시너지 본격화"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654474",
+   "prev": 40000,
+   "prev_date": "2026-10-19",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654473,
+   "date": "2026-11-23",
+   "title": "고려아연(010130) 본격 성장은 28년 이후, 중장기 최선호주",
+   "name": "고려아연",
+   "code": "010130",
+   "target": 1250000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "본격 성장은 28년 이후, 중장기 최선호주"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654473",
+   "prev": 1250000,
+   "prev_date": "2026-11-06",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654472,
+   "date": "2026-11-23",
+   "title": "POSCO홀딩스(005490) 불확실한 시기 업종 내 대안주",
+   "name": "POSCO홀딩스",
+   "code": "005490",
+   "target": 400000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "불확실한 시기 업종 내 대안주"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654472",
+   "prev": 400000,
+   "prev_date": "2026-11-03",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654471,
+   "date": "2026-11-23",
+   "title": "세아베스틸지주(001430) 27년 업종 최선호주 유지",
+   "name": "세아베스틸지주",
+   "code": "001430",
+   "target": 45000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "27년 업종 최선호주 유지"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654471",
+   "prev": 45000,
+   "prev_date": "2026-10-30",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654465,
+   "date": "2026-11-23",
+   "title": "인텔리안테크(189300) 4Q 최대 실적 전망, 저평가 구간 진입",
+   "name": "인텔리안테크",
+   "code": "189300",
+   "target": 100000,
+   "opinion": "Buy",
+   "author": "백종민",
+   "broker": "유안타증권",
+   "points": [
+    "4Q 최대 실적 전망, 저평가 구간 진입"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654465",
+   "move": "신규"
+  },
+  {
+   "idx": 654464,
+   "date": "2026-11-23",
+   "title": "유나이티드제약(033270) 쌓여가는 현금, 주주 환원 확대 기대",
+   "name": "유나이티드제약",
+   "code": "033270",
+   "target": 27000,
+   "opinion": "Buy",
+   "author": "하현수",
+   "broker": "유안타증권",
+   "points": [
+    "쌓여가는 현금, 주주 환원 확대 기대"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654464",
+   "move": "신규"
+  },
+  {
+   "idx": 654463,
+   "date": "2026-11-23",
+   "title": "종근당(185750) 성장 모멘텀이 필요",
+   "name": "종근당",
+   "code": "185750",
+   "target": 97000,
+   "opinion": "Buy",
+   "author": "하현수",
+   "broker": "유안타증권",
+   "points": [
+    "성장 모멘텀이 필요"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654463",
+   "move": "신규"
+  },
+  {
+   "idx": 654436,
+   "date": "2026-11-23",
+   "title": "롯데관광개발(032350) 역대 최고 실적과 그렇지 못한 주가 = 기회",
+   "name": "롯데관광개발",
+   "code": "032350",
+   "target": 25000,
+   "opinion": "매수",
+   "author": "나승두",
+   "broker": "SK증권",
+   "points": [
+    "역대 최고 실적과 그렇지 못한 주가 = 기회"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654436",
+   "move": "신규"
+  },
+  {
+   "idx": 654435,
+   "date": "2026-11-23",
+   "title": "파라다이스(034230) 숫자 돌아왔고, 내용은 더 좋아졌다",
+   "name": "파라다이스",
+   "code": "034230",
+   "target": 25000,
+   "opinion": "매수",
+   "author": "나승두",
+   "broker": "SK증권",
+   "points": [
+    "숫자 돌아왔고, 내용은 더 좋아졌다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654435",
+   "move": "신규"
+  },
+  {
+   "idx": 654434,
+   "date": "2026-11-23",
+   "title": "KB금융(105560) 안정감은 단연 1등",
+   "name": "KB금융",
+   "code": "105560",
+   "target": 213000,
+   "opinion": "매수",
+   "author": "장영임",
+   "broker": "SK증권",
+   "points": [
+    "안정감은 단연 1등"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654434",
+   "prev": 213000,
+   "prev_date": "2026-10-30",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654433,
+   "date": "2026-11-23",
+   "title": "우리금융지주(316140) 2027년 이익도, 환원도 가장 눈에 띈다",
+   "name": "우리금융지주",
+   "code": "316140",
+   "target": 43000,
+   "opinion": "매수",
+   "author": "장영임",
+   "broker": "SK증권",
+   "points": [
+    "2027년 이익도, 환원도 가장 눈에 띈다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654433",
+   "prev": 43000,
+   "prev_date": "2026-10-07",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654432,
+   "date": "2026-11-23",
+   "title": "코스맥스엔비티(222040) 디톡스 끝, 벌크업 시작",
+   "name": "코스맥스엔비티",
+   "code": "222040",
+   "target": 0,
+   "opinion": "투자의견없음",
+   "author": "서진경,이금민",
+   "broker": "한국IR협의회",
+   "points": [
+    "디톡스 끝, 벌크업 시작"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654432",
+   "move": "신규"
+  },
+  {
+   "idx": 654427,
+   "date": "2026-11-23",
+   "title": "파인엠텍(441270) AI 없이도 ‘Fine’",
+   "name": "파인엠텍",
+   "code": "441270",
+   "target": 13000,
+   "opinion": "Buy",
+   "author": "양승수",
+   "broker": "메리츠증권",
+   "points": [
+    "AI 없이도 ‘Fine’"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654427",
+   "prev": 15000,
+   "prev_date": "2026-10-12",
+   "chg": -13.3,
+   "move": "하향"
+  },
+  {
+   "idx": 654413,
+   "date": "2026-11-20",
+   "title": "한중엔시에스(107640) ESS뿐 아니라 UPS 랙 주요 파트너로 도약",
+   "name": "한중엔시에스",
+   "code": "107640",
+   "target": 97000,
+   "opinion": "Buy",
+   "author": "이안나, 배종성",
+   "broker": "유안타증권",
+   "points": [
+    "ESS뿐 아니라 UPS 랙 주요 파트너로 도약"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654413",
+   "move": "신규"
+  },
+  {
+   "idx": 654407,
+   "date": "2026-11-20",
+   "title": "코세스(089890) 콥데이 후기: 체급이 달라진다",
+   "name": "코세스",
+   "code": "089890",
+   "target": 73000,
+   "opinion": "매수",
+   "author": "허선재",
+   "broker": "SK증권",
+   "points": [
+    "콥데이 후기: 체급이 달라진다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654407",
+   "prev": 73000,
+   "prev_date": "2026-11-13",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654403,
+   "date": "2026-11-20",
+   "title": "KH바텍(060720) AI 서버가 새로운 성장 동력",
+   "name": "KH바텍",
+   "code": "060720",
+   "target": 20000,
+   "opinion": "매수",
+   "author": "김운호",
+   "broker": "IBK투자증권",
+   "points": [
+    "AI 서버가 새로운 성장 동력"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654403",
+   "move": "신규"
+  },
+  {
+   "idx": 654402,
+   "date": "2026-11-20",
+   "title": "DB손해보험(005830) 업황 개선 사이클과 안정적인 주주환원 모두 기대 가능",
+   "name": "DB손해보험",
+   "code": "005830",
+   "target": 220000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "업황 개선 사이클과 안정적인 주주환원 모두 기대 가능"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654402",
+   "prev": 220000,
+   "prev_date": "2026-10-16",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654401,
+   "date": "2026-11-20",
+   "title": "삼성화재(000810) 전자 배당의 주주환원 활용 여부가 관건",
+   "name": "삼성화재",
+   "code": "000810",
+   "target": 740000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "전자 배당의 주주환원 활용 여부가 관건"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654401",
+   "prev": 740000,
+   "prev_date": "2026-10-16",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654400,
+   "date": "2026-11-20",
+   "title": "삼성증권(016360) 주주환원 확대에 대한 기대감",
+   "name": "삼성증권",
+   "code": "016360",
+   "target": 99000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "주주환원 확대에 대한 기대감"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654400",
+   "prev": 99000,
+   "prev_date": "2026-11-13",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654399,
+   "date": "2026-11-20",
+   "title": "NH투자증권(005940) 업종 사이클 하락 구간에서 가장 높은 방어력",
+   "name": "NH투자증권",
+   "code": "005940",
+   "target": 29000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "업종 사이클 하락 구간에서 가장 높은 방어력"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654399",
+   "prev": 29000,
+   "prev_date": "2026-10-27",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654398,
+   "date": "2026-11-20",
+   "title": "우리금융지주(316140) 기저효과와 은행 중심 이익구조가 부각될 전망",
+   "name": "우리금융지주",
+   "code": "316140",
+   "target": 42000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "기저효과와 은행 중심 이익구조가 부각될 전망"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654398",
+   "prev": 42000,
+   "prev_date": "2026-11-05",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654397,
+   "date": "2026-11-20",
+   "title": "KB금융(105560) 높은 안정성이 부각되는 구간",
+   "name": "KB금융",
+   "code": "105560",
+   "target": 205000,
+   "opinion": "Buy",
+   "author": "리서치센터",
+   "broker": "iM증권",
+   "points": [
+    "높은 안정성이 부각되는 구간"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654397",
+   "prev": 205000,
+   "prev_date": "2026-11-05",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654391,
+   "date": "2026-11-20",
+   "title": "현대오토에버(307950) ’27년은 DX에서 AX 중심 매출 전환의 원년",
+   "name": "현대오토에버",
+   "code": "307950",
+   "target": 440000,
+   "opinion": "Buy",
+   "author": "김성래",
+   "broker": "한화투자증권",
+   "points": [
+    "’27년은 DX에서 AX 중심 매출 전환의 원년"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654391",
+   "move": "신규"
+  },
+  {
+   "idx": 654390,
+   "date": "2026-11-20",
+   "title": "현대글로비스(086280) 초호황",
+   "name": "현대글로비스",
+   "code": "086280",
+   "target": 340000,
+   "opinion": "Buy",
+   "author": "김준성,배현서",
+   "broker": "메리츠증권",
+   "points": [
+    "초호황"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654390",
+   "prev": 340000,
+   "prev_date": "2026-11-02",
+   "chg": 0.0,
+   "move": "유지"
+  },
+  {
+   "idx": 654389,
+   "date": "2026-11-20",
+   "title": "이수페타시스(007660) ASIC의 중심에는 이유가 있다",
+   "name": "이수페타시스",
+   "code": "007660",
+   "target": 130000,
+   "opinion": "Buy",
+   "author": "양승수",
+   "broker": "메리츠증권",
+   "points": [
+    "ASIC의 중심에는 이유가 있다"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654389",
+   "prev": 160000,
+   "prev_date": "2026-09-22",
+   "chg": -18.8,
+   "move": "하향"
+  },
+  {
+   "idx": 654388,
+   "date": "2026-11-20",
+   "title": "가온전선(000500) 부스덕트/배전케이블 고성장은 시작일 뿐",
+   "name": "가온전선",
+   "code": "000500",
+   "target": 300000,
+   "opinion": "Buy",
+   "author": "허민호",
+   "broker": "대신증권",
+   "points": [
+    "부스덕트/배전케이블 고성장은 시작일 뿐"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654388",
+   "move": "신규"
+  },
+  {
+   "idx": 654387,
+   "date": "2026-11-20",
+   "title": "엘앤에프(066970) 성장 위한 자금조달 가시화",
+   "name": "엘앤에프",
+   "code": "066970",
+   "target": 110000,
+   "opinion": "Buy",
+   "author": "김귀연,박서영",
+   "broker": "대신증권",
+   "points": [
+    "성장 위한 자금조달 가시화"
+   ],
+   "pdf": "https://consensus.hankyung.com/analysis/downpdf?report_idx=654387",
+   "prev": 150000,
+   "prev_date": "2026-11-06",
+   "chg": -26.7,
+   "move": "하향"
+  }
+ ],
+ "source": "한경 컨센서스 기업 리포트",
+ "note": "변동은 같은 종목·같은 증권사의 직전 리포트 목표주가와 비교"
+}
