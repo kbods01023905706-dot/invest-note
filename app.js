@@ -62,7 +62,10 @@
   const views = {};
 
   views.home = async () => {
-    const [m, e, mv, b] = await Promise.all([data('market'), data('earnings'), data('movers'), data('briefs')]);
+    const [m, e, mv, b, rs, nt] = await Promise.all([data('market'), data('earnings'), data('movers'), data('briefs'), data('research'), data('notes')]);
+    const note = nt?.items?.[0];
+    const rsLatest = (rs?.items || []).filter(r => r.date === rs.latest && (r.move === '상향' || r.move === '하향'))
+      .sort((x, y) => Math.abs(y.chg || 0) - Math.abs(x.chg || 0)).slice(0, 6);
     const kr = m?.kr || [], us = m?.us || [];
     const surge = (e?.reports || []).filter(r => r.surge).slice(0, 6);
     const ups = (mv?.up || []).slice(0, 6);
@@ -73,9 +76,11 @@
     <div class="grid g4">${[...kr, ...us.slice(0, 2)].map(q => tile(q)).join('')}</div>
     <div class="grid g2" style="margin-top:14px">
       <section class="card"><h2>장중 흐름 판정</h2>${flows.length ? `<table class="tbl"><tbody>${flows.map(f => `<tr><td>${esc(f.name)}</td><td class="verdict ${f.verdict.includes('강') && !f.verdict.includes('후약') ? 'up' : f.verdict.includes('후약') || f.verdict.includes('약세') ? 'dn' : ''}">${esc(f.verdict)}</td><td class="n">종가 위치 ${f.pos ?? '—'}%</td></tr>`).join('')}</tbody></table><p class="note"><a href="#flow">5분봉 차트 보기</a></p>` : '<div class="empty">첫 자동 갱신 후 표시됩니다</div>'}</section>
+      <section class="card"><h2>AI 시황노트 <span class="badge">자동 작성</span></h2>${note ? `<p class="eyebrow">${esc(note.date)} · ${esc(note.kind)}</p><p><a href="#notes?f=${encodeURIComponent(note.file)}"><b>${esc(note.title)}</b></a></p><p class="note">${esc(String(note.body || '').replace(/^\s*[-*]\s+/gm, '').replace(/^#+.*$/gm, '').replace(/[#*\[\]]/g, '').replace(/\(https?:[^)]*\)/g, '').split('\n').filter(Boolean).slice(0, 3).join(' ').slice(0, 160))}…</p>` : '<div class="empty">평일 아침 자동 작성이 시작되면 표시됩니다</div>'}</section>
       <section class="card"><h2>오늘의 아침 브리핑</h2>${brief ? `<p><a href="${esc(brief.file)}" target="_blank" rel="noopener">${esc(brief.title)}</a> <span class="badge">PDF</span></p><p class="note">국내·미국·글로벌·교양을 한 문서로. <a href="#briefs">지난 브리핑</a></p>` : '<div class="empty">브리핑 PDF가 아직 없습니다</div>'}</section>
       <section class="card"><h2>실적 급증 종목 <span class="badge">DART</span></h2>${surge.length ? `<table class="tbl"><tbody>${surge.map(r => `<tr><td>${r.file ? `<a href="${esc(r.file)}">${esc(r.corp_name)}</a>` : esc(r.corp_name)}<br><span class="note">${esc(r.period)}</span></td><td>${r.flags.map(f => `<span class="chip ${f.includes('적자') ? 'cold' : 'hot'}">${esc(f)}</span>`).join('')}</td><td class="n">${eok(r.op)}</td></tr>`).join('')}</tbody></table><p class="note"><a href="#earnings">전체 실적 공시 보기</a></p>` : '<div class="empty">조건에 맞는 종목이 아직 없습니다</div>'}</section>
       <section class="card"><h2>전일 강세종목</h2>${ups.length ? `<table class="tbl"><tbody>${ups.map(s => `<tr><td>${esc(s.name)} <span class="badge">${s.market === 'KOSPI' ? '코스피' : '코스닥'}</span></td><td class="n">${fmt(s.close, 0)}</td><td class="n">${pct(s.pct)}</td></tr>`).join('')}</tbody></table><p class="note">${esc(mv?.filter || '')} · <a href="#movers">더 보기</a></p>` : '<div class="empty">첫 자동 갱신 후 표시됩니다</div>'}</section>
+      <section class="card"><h2>목표주가 변동 <span class="badge">리서치</span></h2>${rsLatest.length ? `<table class="tbl"><tbody>${rsLatest.map(r => `<tr><td><a href="${esc(r.pdf)}" target="_blank" rel="noopener">${esc(r.name)}</a><br><span class="note">${esc(r.broker)}</span></td><td class="n">${won(r.target)}</td><td>${moveChip(r)}</td></tr>`).join('')}</tbody></table><p class="note">${esc(rs.latest)} 리포트 ${fmt(rs.summary?.total, 0)}건 중 상향 ${fmt(rs.summary?.up, 0)} · 하향 ${fmt(rs.summary?.down, 0)} · <a href="#research">전체 보기</a></p>` : '<div class="empty">첫 자동 갱신 후 표시됩니다</div>'}</section>
     </div>`;
   };
 
@@ -105,6 +110,59 @@
     <section class="card"><div class="tabs">${btn('surge', '실적 급증', reps.filter(r => r.surge).length)}${btn('all', '정기보고서 전체', reps.length)}${btn('prelim', '잠정실적 공시', feed.filter(f => f.kind === '잠정실적').length)}${btn('feed', '보고서 접수 목록', feed.filter(f => f.kind !== '잠정실적').length)}</div>
     ${body}
     <p class="note">급증 기준: ${esc(e.criteria || '')}. 급증 종목은 회사명을 누르면 자동 생성 리포트가 열립니다. 영업이익은 3개월 기준.</p></section>`;
+  };
+
+  const won = v => v == null ? '—' : `${fmt(v, 0)}원`;
+  const moveChip = r => {
+    const m = r.move || '';
+    const c = m === '상향' ? 'hot' : m === '하향' ? 'cold' : 'muted';
+    return `<span class="chip ${c}">${esc(m)}${r.chg != null && m !== '유지' ? ` ${r.chg > 0 ? '+' : ''}${fmt(r.chg, 1)}%` : ''}</span>`;
+  };
+
+  // 아주 작은 마크다운 변환기: ## 제목, - 목록, **굵게**, [글](주소), 빈 줄 = 문단
+  function md(src) {
+    const inline = t => esc(t)
+      .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    const out = []; let list = false;
+    for (const raw of String(src || '').split('\n')) {
+      const line = raw.trimEnd();
+      if (/^\s*[-*] /.test(line)) { if (!list) { out.push('<ul>'); list = true; } out.push(`<li>${inline(line.replace(/^\s*[-*] /, ''))}</li>`); continue; }
+      if (list) { out.push('</ul>'); list = false; }
+      if (/^#{2,4} /.test(line)) out.push(`<h3>${inline(line.replace(/^#+ /, ''))}</h3>`);
+      else if (line.trim()) out.push(`<p>${inline(line)}</p>`);
+    }
+    if (list) out.push('</ul>');
+    return out.join('');
+  }
+
+  views.notes = async () => {
+    const d = await data('notes');
+    const items = d?.items || [];
+    const sel = decodeURIComponent((location.hash.split('?f=')[1] || ''));
+    const cur = items.find(i => i.file === sel) || items[0];
+    if (!cur) return `<div class="page-head"><h1>AI 시황노트</h1></div><div class="empty">아직 노트가 없습니다 — 평일 아침 자동 작성이 시작되면 여기 쌓입니다</div>`;
+    return `<div class="page-head"><h1>AI 시황노트</h1><span class="stamp">${items.length}건</span></div>
+    <div class="grid g2" style="grid-template-columns:minmax(0,2fr) minmax(0,1fr)">
+      <section class="card note-body"><p class="eyebrow">${esc(cur.date)} · ${esc(cur.kind)}</p><h2>${esc(cur.title)}</h2>${md(cur.body)}</section>
+      <section class="card"><h2>지난 노트</h2><table class="tbl"><tbody>${items.slice(0, 60).map(i => `<tr><td>${esc(i.date)}</td><td><a href="#notes?f=${encodeURIComponent(i.file)}">${esc(i.title)}</a> <span class="badge">${esc(i.kind)}</span></td></tr>`).join('')}</tbody></table></section>
+    </div>
+    <p class="note">Claude가 공개 자료를 조사해 자동으로 쓴 노트입니다. 수치는 원문 출처로 확인하세요. 매매 권유가 아닙니다.</p>`;
+  };
+
+  views.research = async () => {
+    const d = await data('research');
+    if (!d || !(d.items || []).length) return '<div class="empty">리서치 데이터가 아직 없습니다 — 첫 자동 갱신 후 표시됩니다</div>';
+    const tab = sessionTab('rs', 'move');
+    const all = d.items || [];
+    const list = tab === 'up' ? all.filter(r => r.move === '상향') : tab === 'down' ? all.filter(r => r.move === '하향')
+      : tab === 'move' ? all.filter(r => r.move === '상향' || r.move === '하향') : all;
+    const btn = (k, l, n) => `<button type="button" data-tab="rs:${k}" aria-pressed="${tab === k}">${l} <span class="fl">${n}</span></button>`;
+    const rows = list.slice(0, 300).map(r => `<tr><td>${esc(r.date)}</td><td><b>${esc(r.name || r.title)}</b>${r.code ? ` <span class="note">${esc(r.code)}</span>` : ''}<br><a href="${esc(r.pdf)}" target="_blank" rel="noopener">${esc(r.title.replace(/^.*?\)\s*/, '') || r.title)}</a>${(r.points || []).length ? `<div class="note">${r.points.map(esc).join(' · ')}</div>` : ''}</td><td>${esc(r.broker)}</td><td>${esc(r.opinion)}</td><td class="n">${won(r.target)}</td><td class="n">${won(r.prev)}</td><td>${moveChip(r)}</td></tr>`).join('');
+    return `<div class="page-head"><h1>리서치 · 목표주가 변동</h1><span class="stamp">갱신 ${esc(d.updated || '—')} · 최근 7일 ${all.length}건</span></div>
+    <section class="card"><div class="tabs">${btn('move', '상향·하향', all.filter(r => r.move === '상향' || r.move === '하향').length)}${btn('up', '상향', all.filter(r => r.move === '상향').length)}${btn('down', '하향', all.filter(r => r.move === '하향').length)}${btn('all', '전체 리포트', all.length)}</div>
+    ${rows ? `<div class="scroll"><table class="tbl"><thead><tr><th>작성일</th><th>종목 · 리포트</th><th>증권사</th><th>의견</th><th class="n">목표주가</th><th class="n">직전</th><th>변동</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<div class="empty">해당 리포트가 없습니다</div>'}
+    <p class="note">출처: ${esc(d.source || '')}. ${esc(d.note || '')}. 제목을 누르면 리포트 PDF가 열립니다.</p></section>`;
   };
 
   views.movers = async () => {

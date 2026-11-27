@@ -1,6 +1,6 @@
 """시세·지수·강세종목·수급 데이터를 모아 data/*.json 으로 저장한다.
 
-GitHub Actions 러너에서 실행한다(yfinance, FinanceDataReader, pykrx 사용).
+GitHub Actions 러너에서 실행한다(지수·해외는 yfinance, 국내 강세종목·수급은 다음 금융).
 각 항목은 실패해도 나머지가 계속 돌도록 개별 try 로 감싼다.
 """
 import datetime as dt
@@ -86,46 +86,143 @@ def intraday():
     return out
 
 
-def movers():
-    import FinanceDataReader as fdr
-    df = fdr.StockListing("KRX")
-    df = df[df["Market"].isin(["KOSPI", "KOSDAQ"])].copy()
-    df["Amount"] = df["Amount"].fillna(0)
-    liquid = df[(df["Marcap"] >= 1e11) & (df["Amount"] >= 5e9)]
+# ---------------------------------------------------------------------------
+# 강세종목·수급: 다음 금융 공개 API
+# (KRX 정보데이터시스템이 로그인 의무화된 뒤 pykrx·FinanceDataReader 의 KRX 수집이 막혔다)
+# ---------------------------------------------------------------------------
+DAUM = "https://finance.daum.net"
+DAUM_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Referer": "https://finance.daum.net/",
+    "Accept": "application/json, text/plain, */*",
+}
+INDEX_CODE = {"KOSPI": "KGG01P", "KOSDAQ": "QGG01P"}
+STOCK_GROUPS = {"STOCK", "FOREIGN_STOCK"}  # ETF·ETN·리츠 등은 강세종목에서 뺀다
 
-    def rows(sub, n):
-        return [{
-            "code": r.Code, "name": r.Name, "market": r.Market, "close": int(r.Close),
-            "pct": round(float(r.ChagesRatio), 2), "amount_eok": round(float(r.Amount) / 1e8),
-            "marcap_jo": round(float(r.Marcap) / 1e12, 2),
-        } for r in sub.head(n).itertuples()]
+
+def daum(path, **params):
+    import time
+    import requests
+    last = None
+    for attempt in range(3):
+        try:
+            r = requests.get(DAUM + path, params=params, headers=DAUM_HEADERS, timeout=20)
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:  # 일시 오류는 두 번 더 시도
+            last = e
+            time.sleep(1.5 * (attempt + 1))
+    raise last
+
+
+def signed_rate(x):
+    """다음 API 의 changeRate 는 부호가 없을 수 있어 change(RISE/FALL)로 부호를 붙인다(%)."""
+    r = abs(float(x.get("changeRate") or 0)) * 100
+    return -r if str(x.get("change", "")).upper() in ("FALL", "LOWER_LIMIT") else r
+
+
+def market_list(mkt):
+    """시장 전 종목(시가총액 순)의 현재가·등락률·시가총액."""
+    out, page = [], 1
+    while True:
+        d = daum("/api/trend/market_capitalization", page=page, perPage=1000, fieldName="marketCap",
+                 order="desc", market=mkt, pagination="true")
+        out += d.get("data") or []
+        if page >= int(d.get("totalPages") or 1):
+            return out
+        page += 1
+
+
+def quote(symbol):
+    return daum(f"/api/quotes/{symbol}", summary="false", changeStatistics="true")
+
+
+def stock_row(x, q, mkt):
+    return {
+        "code": x["symbolCode"][1:], "name": x["name"], "market": mkt,
+        "close": int(q.get("tradePrice") or x.get("tradePrice") or 0),
+        "pct": round(signed_rate(q if q.get("change") else x), 2),
+        "amount_eok": round(float(q.get("accTradePrice") or 0) / 1e8),
+        "marcap_jo": round(float(q.get("marketCap") or x.get("marketCap") or 0) / 1e12, 2),
+    }
+
+
+def movers():
+    MIN_CAP, MIN_AMT = 1e11, 5e9  # 시가총액 1,000억 원, 거래대금 50억 원
+    universe = []
+    for mkt in ("KOSPI", "KOSDAQ"):
+        universe += [dict(x, _mkt=mkt) for x in market_list(mkt)]
+    big = [x for x in universe if float(x.get("marketCap") or 0) >= MIN_CAP]
+
+    cache = {}
+
+    def q(x):
+        s = x["symbolCode"]
+        if s not in cache:
+            try:
+                cache[s] = quote(s)
+            except Exception:
+                cache[s] = {}
+        return cache[s]
+
+    def pick(cands, n):
+        rows = []
+        for x in cands:
+            d = q(x)
+            if d.get("securityGroup") not in STOCK_GROUPS:
+                continue
+            if float(d.get("accTradePrice") or 0) < MIN_AMT:
+                continue
+            rows.append(stock_row(x, d, x["_mkt"]))
+            if len(rows) >= n:
+                break
+        return rows
+
+    up = pick(sorted(big, key=signed_rate, reverse=True)[:60], 15)
+    down = pick(sorted(big, key=signed_rate)[:45], 10)
+
+    # 거래대금 상위: 시장별 거래대금 순 목록에서 주식만 골라 합친다
+    amt = []
+    for mkt in ("KOSPI", "KOSDAQ"):
+        d = daum("/api/trend/market_capitalization", page=1, perPage=30, fieldName="accTradePrice",
+                 order="desc", market=mkt, pagination="true")
+        for x in d.get("data") or []:
+            qd = q(dict(x, _mkt=mkt))
+            if qd.get("securityGroup") in STOCK_GROUPS:
+                amt.append(stock_row(x, qd, mkt))
+    amt.sort(key=lambda r: r["amount_eok"], reverse=True)
+
+    # 등락 종목 수: 지수 시세의 상승·하락·보합 집계(코스피+코스닥)
+    breadth = {"up": 0, "down": 0, "flat": 0}
+    for mkt, code in INDEX_CODE.items():
+        st = (quote(code).get("changeStatistics") or {})
+        breadth["up"] += int(st.get("riseCount") or 0)
+        breadth["down"] += int(st.get("fallCount") or 0)
+        breadth["flat"] += int(st.get("evenCount") or 0)
 
     return {
-        "up": rows(liquid.sort_values("ChagesRatio", ascending=False), 15),
-        "down": rows(liquid.sort_values("ChagesRatio"), 10),
-        "amount": rows(df.sort_values("Amount", ascending=False), 10),
-        "breadth": {
-            "up": int((df["ChagesRatio"] > 0).sum()), "down": int((df["ChagesRatio"] < 0).sum()),
-            "flat": int((df["ChagesRatio"] == 0).sum()),
-        },
-        "filter": "시가총액 1,000억 원 이상·거래대금 50억 원 이상",
+        "up": up, "down": down, "amount": amt[:10], "breadth": breadth,
+        "filter": "주식만(ETF·ETN 제외), 시가총액 1,000억 원 이상·거래대금 50억 원 이상",
+        "universe": len(universe),
     }
 
 
 def flows():
-    from pykrx import stock
-    end = NOW.strftime("%Y%m%d")
-    start = (NOW - dt.timedelta(days=10)).strftime("%Y%m%d")
+    """시장별 투자자 순매수(억원). 다음은 개인·외국인·기관만 주므로 기타법인은 나머지(합계 0)로 계산."""
     out = {}
     for mkt in ("KOSPI", "KOSDAQ"):
-        df = stock.get_market_trading_value_by_date(start, end, mkt)
-        last = df.iloc[-1]
+        d = daum("/api/market_index/days", market=mkt, perPage=5)
+        rows = d.get("data") or []
+        if not rows:
+            raise RuntimeError(f"{mkt} 수급 없음")
+        x = rows[0]
+        ind = float(x.get("individualStraightPurchasePrice") or 0)
+        frn = float(x.get("foreignStraightPurchasePrice") or 0)
+        ins = float(x.get("institutionStraightPurchasePrice") or 0)
         out[mkt] = {
-            "date": df.index[-1].strftime("%Y-%m-%d"),
-            "개인": round(float(last.get("개인", 0)) / 1e8),
-            "외국인": round(float(last.get("외국인합계", 0)) / 1e8),
-            "기관": round(float(last.get("기관합계", 0)) / 1e8),
-            "기타법인": round(float(last.get("기타법인", 0)) / 1e8),
+            "date": str(x.get("date", ""))[:10],
+            "개인": round(ind / 1e8), "외국인": round(frn / 1e8), "기관": round(ins / 1e8),
+            "기타법인": round(-(ind + frn + ins) / 1e8),
         }
     return out
 
@@ -151,7 +248,7 @@ def main():
         "source": "Yahoo Finance(yfinance) 일봉·5분봉",
     })
     save("movers.json", {"updated": stamp, **(run("movers", movers) or {}),
-                         "flows": run("flows", flows), "source": "KRX(FinanceDataReader·pykrx)"})
+                         "flows": run("flows", flows), "source": "다음 금융(finance.daum.net) 공개 시세"})
     print("market updated", stamp)
 
 
