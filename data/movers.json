@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 15:36",
+ "updated": "2026-11-27 17:13",
  "up": [
   {
    "code": "115180",
@@ -16,7 +16,7 @@
    "market": "KOSDAQ",
    "close": 5720,
    "pct": 30.0,
-   "amount_eok": 357,
+   "amount_eok": 352,
    "marcap_jo": 0.19
   },
   {
@@ -25,17 +25,8 @@
    "market": "KOSDAQ",
    "close": 8020,
    "pct": 29.98,
-   "amount_eok": 195,
+   "amount_eok": 177,
    "marcap_jo": 0.11
-  },
-  {
-   "code": "138360",
-   "name": "앤로보틱스",
-   "market": "KOSDAQ",
-   "close": 1483,
-   "pct": 29.97,
-   "amount_eok": 270,
-   "marcap_jo": 0.13
   },
   {
    "code": "129920",
@@ -43,7 +34,7 @@
    "market": "KOSDAQ",
    "close": 7950,
    "pct": 29.9,
-   "amount_eok": 196,
+   "amount_eok": 188,
    "marcap_jo": 0.13
   },
   {
@@ -52,89 +43,98 @@
    "market": "KOSDAQ",
    "close": 23650,
    "pct": 29.87,
-   "amount_eok": 687,
+   "amount_eok": 681,
    "marcap_jo": 0.74
   },
   {
-   "code": "348370",
-   "name": "엔켐",
+   "code": "138360",
+   "name": "앤로보틱스",
    "market": "KOSDAQ",
-   "close": 10670,
-   "pct": 27.33,
-   "amount_eok": 113,
-   "marcap_jo": 0.23
+   "close": 1480,
+   "pct": 29.71,
+   "amount_eok": 288,
+   "marcap_jo": 0.13
   },
   {
    "code": "298380",
    "name": "에이비엘바이오",
    "market": "KOSDAQ",
-   "close": 46750,
-   "pct": 26.52,
-   "amount_eok": 648,
-   "marcap_jo": 2.62
-  },
-  {
-   "code": "009470",
-   "name": "삼화전기",
-   "market": "KOSPI",
-   "close": 28900,
-   "pct": 26.2,
-   "amount_eok": 82,
-   "marcap_jo": 0.19
+   "close": 47050,
+   "pct": 27.33,
+   "amount_eok": 654,
+   "marcap_jo": 2.63
   },
   {
    "code": "340450",
    "name": "지씨지놈",
    "market": "KOSDAQ",
-   "close": 10180,
-   "pct": 25.99,
-   "amount_eok": 207,
+   "close": 10130,
+   "pct": 25.37,
+   "amount_eok": 208,
    "marcap_jo": 0.24
   },
   {
-   "code": "0147B0",
-   "name": "래블업",
-   "market": "KOSDAQ",
-   "close": 12340,
-   "pct": 24.65,
-   "amount_eok": 110,
-   "marcap_jo": 0.18
+   "code": "009470",
+   "name": "삼화전기",
+   "market": "KOSPI",
+   "close": 28700,
+   "pct": 25.33,
+   "amount_eok": 82,
+   "marcap_jo": 0.19
   },
   {
-   "code": "174900",
-   "name": "앱클론",
+   "code": "348370",
+   "name": "엔켐",
    "market": "KOSDAQ",
-   "close": 24850,
-   "pct": 24.25,
-   "amount_eok": 112,
-   "marcap_jo": 0.5
+   "close": 10360,
+   "pct": 23.63,
+   "amount_eok": 113,
+   "marcap_jo": 0.23
   },
   {
    "code": "471800",
    "name": "에이엘로봇",
    "market": "KOSDAQ",
-   "close": 11360,
-   "pct": 24.02,
-   "amount_eok": 976,
+   "close": 11310,
+   "pct": 23.47,
+   "amount_eok": 977,
    "marcap_jo": 0.14
   },
   {
-   "code": "032500",
-   "name": "케이엠더블유",
+   "code": "174900",
+   "name": "앱클론",
    "market": "KOSDAQ",
-   "close": 25950,
-   "pct": 22.99,
-   "amount_eok": 280,
-   "marcap_jo": 1.09
+   "close": 24600,
+   "pct": 23.0,
+   "amount_eok": 111,
+   "marcap_jo": 0.49
   },
   {
-   "code": "419530",
-   "name": "SAMG엔터",
+   "code": "0147B0",
+   "name": "래블업",
    "market": "KOSDAQ",
-   "close": 15200,
-   "pct": 22.09,
-   "amount_eok": 56,
-   "marcap_jo": 0.16
+   "close": 12100,
+   "pct": 22.22,
+   "amount_eok": 110,
+   "marcap_jo": 0.18
+  },
+  {
+   "code": "141080",
+   "name": "리가켐바이오",
+   "market": "KOSDAQ",
+   "close": 68900,
+   "pct": 21.52,
+   "amount_eok": 493,
+   "marcap_jo": 2.55
+  },
+  {
+   "code": "158430",
+   "name": "아톤",
+   "market": "KOSDAQ",
+   "close": 5190,
+   "pct": 21.4,
+   "amount_eok": 283,
+   "marcap_jo": 0.13
   }
  ],
  "down": [
@@ -142,91 +142,91 @@
    "code": "290690",
    "name": "아리바이오홀딩스",
    "market": "KOSDAQ",
-   "close": 2230,
-   "pct": -7.66,
-   "amount_eok": 73,
+   "close": 2220,
+   "pct": -8.07,
+   "amount_eok": 64,
    "marcap_jo": 0.12
   },
   {
    "code": "192820",
    "name": "코스맥스",
    "market": "KOSPI",
-   "close": 315000,
-   "pct": -6.39,
-   "amount_eok": 673,
-   "marcap_jo": 3.58
-  },
-  {
-   "code": "241710",
-   "name": "코스메카코리아",
-   "market": "KOSDAQ",
-   "close": 120800,
-   "pct": -5.62,
-   "amount_eok": 272,
-   "marcap_jo": 1.29
+   "close": 313000,
+   "pct": -6.98,
+   "amount_eok": 667,
+   "marcap_jo": 3.55
   },
   {
    "code": "069960",
    "name": "현대백화점",
    "market": "KOSPI",
-   "close": 84600,
-   "pct": -5.37,
-   "amount_eok": 144,
+   "close": 84400,
+   "pct": -5.59,
+   "amount_eok": 145,
    "marcap_jo": 1.82
+  },
+  {
+   "code": "241710",
+   "name": "코스메카코리아",
+   "market": "KOSDAQ",
+   "close": 121700,
+   "pct": -4.92,
+   "amount_eok": 262,
+   "marcap_jo": 1.3
   },
   {
    "code": "089590",
    "name": "제주항공",
    "market": "KOSPI",
-   "close": 7980,
-   "pct": -4.2,
-   "amount_eok": 97,
+   "close": 7960,
+   "pct": -4.44,
+   "amount_eok": 94,
    "marcap_jo": 0.64
   },
   {
    "code": "004170",
    "name": "신세계",
    "market": "KOSPI",
-   "close": 263500,
-   "pct": -4.01,
+   "close": 263000,
+   "pct": -4.19,
    "amount_eok": 242,
-   "marcap_jo": 2.49
+   "marcap_jo": 2.48
   },
   {
    "code": "261780",
    "name": "아리바이오랩",
    "market": "KOSDAQ",
-   "close": 4410,
-   "pct": -3.82,
-   "amount_eok": 440,
+   "close": 4415,
+   "pct": -3.71,
+   "amount_eok": 449,
    "marcap_jo": 0.13
   },
   {
    "code": "271560",
    "name": "오리온",
    "market": "KOSPI",
-   "close": 114900,
-   "pct": -3.61,
+   "close": 115000,
+   "pct": -3.52,
    "amount_eok": 99,
-   "marcap_jo": 4.54
+   "marcap_jo": 4.55
   },
   {
-   "code": "030200",
-   "name": "KT",
+   "code": "090430",
+   "name": "아모레퍼시픽",
    "market": "KOSPI",
-   "close": 44650,
-   "pct": -2.72,
-   "amount_eok": 209,
-   "marcap_jo": 11.25
+   "close": 142000,
+   "pct": -2.81,
+   "amount_eok": 300,
+   "marcap_jo": 8.31
   },
   {
    "code": "005830",
    "name": "DB손해보험",
    "market": "KOSPI",
-   "close": 160700,
-   "pct": -2.55,
+   "close": 160500,
+   "pct": -2.67,
    "amount_eok": 263,
-   "marcap_jo": 10.53
+   "marcap_jo": 10.51
   }
  ],
  "amount": [
@@ -234,91 +234,91 @@
    "code": "000660",
    "name": "SK하이닉스",
    "market": "KOSPI",
-   "close": 1110000,
-   "pct": 5.41,
-   "amount_eok": 32324,
-   "marcap_jo": 784.55
+   "close": 1108000,
+   "pct": 5.22,
+   "amount_eok": 31548,
+   "marcap_jo": 783.13
   },
   {
    "code": "005930",
    "name": "삼성전자",
    "market": "KOSPI",
-   "close": 179100,
-   "pct": 4.55,
-   "amount_eok": 24827,
-   "marcap_jo": 1047.07
+   "close": 178900,
+   "pct": 4.44,
+   "amount_eok": 24356,
+   "marcap_jo": 1045.9
   },
   {
    "code": "009150",
    "name": "삼성전기",
    "market": "KOSPI",
-   "close": 821000,
-   "pct": 4.72,
-   "amount_eok": 7154,
-   "marcap_jo": 61.32
+   "close": 819000,
+   "pct": 4.46,
+   "amount_eok": 7005,
+   "marcap_jo": 61.17
   },
   {
    "code": "005935",
    "name": "삼성전자우",
    "market": "KOSPI",
-   "close": 145000,
-   "pct": 5.84,
-   "amount_eok": 4705,
-   "marcap_jo": 116.34
+   "close": 144800,
+   "pct": 5.69,
+   "amount_eok": 4583,
+   "marcap_jo": 116.18
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
    "market": "KOSDAQ",
-   "close": 156900,
-   "pct": 14.36,
-   "amount_eok": 3222,
-   "marcap_jo": 7.29
-  },
-  {
-   "code": "278470",
-   "name": "에이피알",
-   "market": "KOSPI",
-   "close": 299500,
-   "pct": 0.34,
-   "amount_eok": 2811,
-   "marcap_jo": 11.21
+   "close": 155500,
+   "pct": 13.34,
+   "amount_eok": 3159,
+   "marcap_jo": 7.23
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
    "market": "KOSPI",
-   "close": 687000,
-   "pct": 5.37,
-   "amount_eok": 2743,
-   "marcap_jo": 90.63
+   "close": 684000,
+   "pct": 4.91,
+   "amount_eok": 2697,
+   "marcap_jo": 90.24
   },
   {
    "code": "006400",
    "name": "삼성SDI",
    "market": "KOSPI",
-   "close": 452500,
-   "pct": 8.25,
-   "amount_eok": 2501,
-   "marcap_jo": 36.46
+   "close": 450500,
+   "pct": 7.78,
+   "amount_eok": 2466,
+   "marcap_jo": 36.3
   },
   {
    "code": "053800",
    "name": "안랩",
    "market": "KOSDAQ",
-   "close": 174500,
-   "pct": 6.08,
-   "amount_eok": 2474,
+   "close": 174100,
+   "pct": 5.84,
+   "amount_eok": 2378,
    "marcap_jo": 1.94
+  },
+  {
+   "code": "278470",
+   "name": "에이피알",
+   "market": "KOSPI",
+   "close": 298500,
+   "pct": 0.0,
+   "amount_eok": 2277,
+   "marcap_jo": 11.18
   },
   {
    "code": "277810",
    "name": "레인보우로보틱스",
    "market": "KOSDAQ",
-   "close": 531000,
-   "pct": 13.7,
-   "amount_eok": 2185,
-   "marcap_jo": 10.3
+   "close": 525000,
+   "pct": 12.42,
+   "amount_eok": 2153,
+   "marcap_jo": 10.18
   }
  ],
  "breadth": {
@@ -331,17 +331,17 @@
  "flows": {
   "KOSPI": {
    "date": "2026-11-27",
-   "개인": -17746,
-   "외국인": 11256,
-   "기관": 2388,
-   "기타법인": 4102
+   "개인": -17842,
+   "외국인": 11393,
+   "기관": 2356,
+   "기타법인": 4093
   },
   "KOSDAQ": {
    "date": "2026-11-27",
-   "개인": -8842,
-   "외국인": 3030,
-   "기관": 5866,
-   "기타법인": -53
+   "개인": -8864,
+   "외국인": 3036,
+   "기관": 5871,
+   "기타법인": -44
   }
  },
  "source": "다음 금융(finance.daum.net) 공개 시세"
